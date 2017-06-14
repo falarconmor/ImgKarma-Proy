@@ -1,9 +1,9 @@
-package pe.edu.cibertec.proyemp.service;
+package proyecto.servicios;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import pe.edu.cibertec.proyemp.repository.EmpleadoRepository;
+import proyecto.repositorios.EmpleadoRepository;
 
 @Component
 public class EmpleadoService {

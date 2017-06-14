@@ -4,11 +4,18 @@
 
 	<persistence-unit name="SpringData" transaction-type="RESOURCE_LOCAL">
 	
-	<class>pe.edu.cibertec.proyemp.model.Departamento</class>
-	<class>pe.edu.cibertec.proyemp.model.Empleado</class>
+	<class>proyecto.beans.PuntuacionPublicacion</class>
+	<class>proyecto.beans.Usuario</class>
+	<class>proyecto.beans.TipoUsuario</class>
+	<class>proyecto.beans.Publicacion</class>
+	<class>proyecto.beans.Comentario</class>
+	<class>proyecto.beans.Seccion</class>
+	<class>proyecto.beans.PuntuacionComentario</class>
+	
+
 
 		<properties>
-			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/spring_empresa" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/imgkarma" />
 			<property name="javax.persistence.jdbc.user" value="root" />
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
 			<property name="javax.persistence.jdbc.password" value="MySQL" />

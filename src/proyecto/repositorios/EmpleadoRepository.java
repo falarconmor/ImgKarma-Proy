@@ -1,4 +1,4 @@
-package pe.edu.cibertec.proyemp.repository;
+package proyecto.repositorios;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import pe.edu.cibertec.proyemp.model.Empleado;
+import proyecto.beans.Empleado;
 
 @Repository
 public interface EmpleadoRepository

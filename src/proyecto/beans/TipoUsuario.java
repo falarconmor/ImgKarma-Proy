@@ -1,4 +1,4 @@
-package pe.edu.cibertec.proyemp.model;
+package proyecto.beans;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -6,14 +6,13 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="tb_departamento")
-public class Departamento {
+@Table(name="tb_tipousuario")
+public class TipoUsuario {
 	
 	@Id
 	@GeneratedValue
 	private Long id;
-	private String nombre;
-	
+	private String desctipousu;
 	
 	public Long getId() {
 		return id;
@@ -21,12 +20,12 @@ public class Departamento {
 	public void setId(Long id) {
 		this.id = id;
 	}
-	public String getNombre() {
-		return nombre;
+	public String getDesctipousu() {
+		return desctipousu;
 	}
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
+	public void setDesctipousu(String desctipousu) {
+		this.desctipousu = desctipousu;
 	}
-
 	
+
 }

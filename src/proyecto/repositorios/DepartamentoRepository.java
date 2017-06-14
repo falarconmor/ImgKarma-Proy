@@ -1,9 +1,9 @@
-package pe.edu.cibertec.proyemp.repository;
+package proyecto.repositorios;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import pe.edu.cibertec.proyemp.model.Departamento;
+import proyecto.beans.Departamento;
 
 @Repository
 public interface DepartamentoRepository 

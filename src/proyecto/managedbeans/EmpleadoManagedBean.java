@@ -1,4 +1,4 @@
-package pe.edu.cibertec.proyemp.managedbean;
+package proyecto.managedbeans;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,10 +11,10 @@ import javax.faces.context.FacesContext;
 
 import com.google.common.collect.Lists;
 
-import pe.edu.cibertec.proyemp.model.Departamento;
-import pe.edu.cibertec.proyemp.model.Empleado;
-import pe.edu.cibertec.proyemp.service.DepartamentoService;
-import pe.edu.cibertec.proyemp.service.EmpleadoService;
+import proyecto.beans.Departamento;
+import proyecto.beans.Empleado;
+import proyecto.servicios.DepartamentoService;
+import proyecto.servicios.EmpleadoService;
 
 @ManagedBean
 @SessionScoped

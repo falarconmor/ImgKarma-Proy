@@ -1,4 +1,4 @@
-package pe.edu.cibertec.proyemp.managedbean;
+package proyecto.managedbeans;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -10,8 +10,8 @@ import javax.faces.bean.SessionScoped;
 
 import com.google.common.collect.Lists;
 
-import pe.edu.cibertec.proyemp.model.Departamento;
-import pe.edu.cibertec.proyemp.service.DepartamentoService;
+import proyecto.beans.Departamento;
+import proyecto.servicios.DepartamentoService;
 
 @ManagedBean
 @SessionScoped
