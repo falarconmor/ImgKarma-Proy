@@ -22,8 +22,8 @@ public class Usuario {
 	private String nombreusu;
 	private String apeusu;
 	private String emailusu;
-	private String pwdusu;
-	private String nickusu;
+	private String password;
+	private String username;
 	//@Temporal(TemporalType.DATE)
 	private Date fecnacusu;
 	private String descusu;
@@ -66,21 +66,21 @@ public class Usuario {
 	public void setEmailusu(String emailusu) {
 		this.emailusu = emailusu;
 	}
-
-	public String getPwdusu() {
-		return pwdusu;
+    
+	public String getPassword() {
+		return password;
 	}
 
-	public void setPwdusu(String pwdusu) {
-		this.pwdusu = pwdusu;
+	public void setPassword(String password) {
+		this.password = password;
 	}
 
-	public String getNickusu() {
-		return nickusu;
+	public String getUsername() {
+		return username;
 	}
 
-	public void setNickusu(String nickusu) {
-		this.nickusu = nickusu;
+	public void setUsername(String username) {
+		this.username = username;
 	}
 
 	public Date getFecnacusu() {

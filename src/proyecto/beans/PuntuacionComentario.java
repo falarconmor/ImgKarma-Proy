@@ -14,9 +14,10 @@ public class PuntuacionComentario {
 	@Id
 	@GeneratedValue
 	private Long valorcom;
-	@OneToMany
+	
+	@OneToMany(mappedBy="Usuario")
 	private Usuario idusu = new Usuario();
-	@OneToMany
+	@OneToMany(mappedBy="Comentario")
 	private Comentario idpub = new Comentario();
 	
 	public Long getValorcom() {
